@@ -1,3 +1,15 @@
+# v0.0.3 (Sun Oct 03 2021)
+
+#### ⚠️ Pushed to `main`
+
+- remove comments and properly toggle darkMode (mehrad.meraji@gmail.com)
+
+#### Authors: 1
+
+- Mehrad Meraji (mehrad.meraji@gmail.com)
+
+---
+
 # v0.0.2 (Sun Oct 03 2021)
 
 #### ⚠️ Pushed to `main`
