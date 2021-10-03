@@ -1,3 +1,15 @@
+# v1.0.4 (Sun Oct 03 2021)
+
+#### ⚠️ Pushed to `main`
+
+- Fix darkmode trigger (mehrad.meraji@gmail.com)
+
+#### Authors: 1
+
+- Mehrad Meraji (mehrad.meraji@gmail.com)
+
+---
+
 # v0.0.3 (Sun Oct 03 2021)
 
 #### ⚠️ Pushed to `main`
