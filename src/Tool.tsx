@@ -9,7 +9,7 @@ export const Tool = () => {
   const toggleDarkMode = useCallback(
     () =>
       updateGlobals({
-        darkMode: darkMode ? undefined : true,
+        darkMode: darkMode,
       }),
     [darkMode]
   );
