@@ -1,17 +1,17 @@
 {
-  "name": "storybook-addon-kit",
+  "name": "storybook-addon-tw-dm-toggle",
   "version": "0.0.0",
-  "description": "everything you need to build a Storybook addon",
+  "description": "tiny tailwind dark mode toggle",
   "keywords": [
     "storybook-addons",
-    "style",
-    "test"
+    "tailwind",
+    "style"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/storybook-addon-kit"
+    "url": "https://github.com/mehrad-meraji/storybook-addon-tw-dm-toggle"
   },
-  "author": "winkerVSbecks",
+  "author": "Mehrad Meraji",
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -81,12 +81,12 @@
     "access": "public"
   },
   "storybook": {
-    "displayName": "Addon Kit",
+    "displayName": "Tailwind Dark Mode Toggle",
     "supportedFrameworks": [
       "react",
       "vue",
       "angular"
     ],
-    "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
+    "icon": "https://camo.githubusercontent.com/76fc893540a16d0acb4967472a5195511ec64fd8d98f377cb00dc8fa73ffb67b/68747470733a2f2f7265666163746f72696e6775692e6e7963332e63646e2e6469676974616c6f6365616e7370616365732e636f6d2f7461696c77696e642d6c6f676f2d737469636b65722e737667"
   }
 }
