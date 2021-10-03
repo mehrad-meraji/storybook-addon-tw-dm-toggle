@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-tw-dm-toggle",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "tiny tailwind dark mode toggle",
   "keywords": [
     "storybook-addons",
