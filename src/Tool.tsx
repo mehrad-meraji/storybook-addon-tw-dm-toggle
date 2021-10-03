@@ -9,7 +9,7 @@ export const Tool = () => {
   const toggleDarkMode = useCallback(
     () =>
       updateGlobals({
-        darkMode: darkMode,
+        darkMode: darkMode ? undefined : true,
       }),
     [darkMode]
   );
@@ -21,10 +21,6 @@ export const Tool = () => {
       title="Enable Dark Mode"
       onClick={toggleDarkMode}
     >
-      {/*
-        Checkout https://next--storybookjs.netlify.app/official-storybook/?path=/story/basics-icon--labels
-        for the full list of icons
-      */}
       <Icons icon="mirror" />
     </IconButton>
   );
