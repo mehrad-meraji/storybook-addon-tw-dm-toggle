@@ -1,8 +1,12 @@
-import { StoryFn as StoryFunction, useChannel } from "@storybook/addons";
+import { useChannel } from "@storybook/preview-api";
+import type {
+  Renderer,
+  PartialStoryFn as StoryFunction,
+} from "@storybook/types";
 import { STORY_CHANGED } from "@storybook/core-events";
 import { EVENTS } from "./constants";
 
-export const withRoundTrip = (storyFn: StoryFunction) => {
+export const withRoundTrip = (storyFn: StoryFunction<Renderer>) => {
   const emit = useChannel({
     [EVENTS.REQUEST]: () => {
       emit(EVENTS.RESULT, {
@@ -42,5 +46,6 @@ export const withRoundTrip = (storyFn: StoryFunction) => {
       });
     },
   });
+
   return storyFn();
 };
