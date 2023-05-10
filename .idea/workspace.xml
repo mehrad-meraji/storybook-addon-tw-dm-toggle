@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ae92dd6-118c-4bc3-af14-1480258377ea" name="Changes" comment="Update CHANGELOG.md [skip ci]">
+    <list default="true" id="4ae92dd6-118c-4bc3-af14-1480258377ea" name="Changes" comment="Bump version to: 7.0.15 [skip ci]">
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683645069820</updated>
-      <workItem from="1683645071772" duration="21485000" />
+      <workItem from="1683645071772" duration="21533000" />
     </task>
     <task id="LOCAL-00001" summary="Update Storybook version">
       <created>1683733618373</created>
@@ -160,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683734370545</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Bump version to: 7.0.15 [skip ci]">
+      <created>1683734571438</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683734571438</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +176,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update Storybook version" />
     <MESSAGE value="Update CHANGELOG.md [skip ci]" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update CHANGELOG.md [skip ci]" />
+    <MESSAGE value="Bump version to: 7.0.15 [skip ci]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bump version to: 7.0.15 [skip ci]" />
   </component>
 </project>
