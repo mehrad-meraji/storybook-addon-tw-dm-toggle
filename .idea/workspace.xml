@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae92dd6-118c-4bc3-af14-1480258377ea" name="Changes" comment="Update Storybook version">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -60,6 +59,7 @@
       <command value="npx storybook@latest init " />
       <command value="yarn" />
       <command value="npx storybook@latest upgrade" />
+      <command value="npm adduser" />
     </option>
   </component>
   <component name="RunManager" selected="npm.release">
@@ -131,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683645069820</updated>
-      <workItem from="1683645071772" duration="20740000" />
+      <workItem from="1683645071772" duration="21091000" />
     </task>
     <task id="LOCAL-00001" summary="Update Storybook version">
       <created>1683733618373</created>
@@ -140,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683733618373</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update Storybook version">
+      <created>1683733841928</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683733841928</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

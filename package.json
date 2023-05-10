@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/mehrad-meraji/storybook-addon-tw-dm-toggle"
   },
-  "author": "mehrad-meraji <contact@mehrad.dev>",
+  "author": "_mehrad <mehrad.meraji@gmail.com>",
   "license": "MIT",
   "exports": {
     ".": {
