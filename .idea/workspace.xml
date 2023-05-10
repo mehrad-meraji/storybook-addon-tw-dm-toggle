@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ae92dd6-118c-4bc3-af14-1480258377ea" name="Changes" comment="Update CHANGELOG.md [skip ci]">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683645069820</updated>
-      <workItem from="1683645071772" duration="21237000" />
+      <workItem from="1683645071772" duration="21485000" />
     </task>
     <task id="LOCAL-00001" summary="Update Storybook version">
       <created>1683733618373</created>
@@ -154,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683734163225</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update CHANGELOG.md [skip ci]">
+      <created>1683734370545</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1683734370545</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
