@@ -1,5 +1,6 @@
 import React from 'react';
 import './button.css';
+import {StoryObj} from "@storybook/react";
 
 interface ButtonProps {
   /**
@@ -23,17 +24,18 @@ interface ButtonProps {
    */
   onClick?: () => void;
 }
+type Story = StoryObj<typeof Button>;
 
 /**
  * Primary UI component for user interaction
  */
 export const Button = ({
-  primary = false,
-  size = 'medium',
-  backgroundColor,
-  label,
-  ...props
-}: ButtonProps) => {
+                         primary = false,
+                         size = 'medium',
+                         backgroundColor,
+                         label,
+                         ...props
+                       }: ButtonProps) => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
     <button
@@ -45,4 +47,10 @@ export const Button = ({
       {label}
     </button>
   );
+};
+
+export const Primary: Story = {
+  parameters: {
+    twDarkMode: true
+  },
 };

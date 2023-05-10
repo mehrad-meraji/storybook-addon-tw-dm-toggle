@@ -27,7 +27,7 @@
     />
     <link rel="stylesheet" href="./sb-common-assets/fonts.css" />
 
-    <link href="./sb-manager/runtime.mjs" rel="modulepreload" />
+    <link href="./sb-manager/runtime.js" rel="modulepreload" />
 
     <% files.js.forEach(file => { %>
     <link href="<%= file %>" rel="modulepreload" />
@@ -57,13 +57,13 @@
     <% } %>
 
     <script type="module">
-      import './sb-manager/runtime.mjs';
+      import './sb-manager/runtime.js';
 
       <% files.js.forEach(file => { %>
       import '<%= file %>';
       <% }); %>
     </script>
 
-    <link href="./sb-preview/runtime.mjs" rel="prefetch" as="script" />
+    <link href="./sb-preview/runtime.js" rel="prefetch" as="script" />
   </body>
 </html>

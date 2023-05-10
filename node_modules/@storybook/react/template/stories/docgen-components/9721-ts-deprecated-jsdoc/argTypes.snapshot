@@ -30,31 +30,5 @@ Object {
       },
     },
   },
-  "width": Object {
-    "control": Object {
-      "type": "number",
-    },
-    "description": "",
-    "name": "width",
-    "table": Object {
-      "defaultValue": null,
-      "jsDocTags": Object {
-        "deprecated": "Do not use! Use \`size\` instead!
-
-Width of foo",
-        "ignore": false,
-        "params": undefined,
-        "returns": null,
-      },
-      "type": Object {
-        "detail": undefined,
-        "summary": "number",
-      },
-    },
-    "type": Object {
-      "name": "number",
-      "required": true,
-    },
-  },
 }
 `;

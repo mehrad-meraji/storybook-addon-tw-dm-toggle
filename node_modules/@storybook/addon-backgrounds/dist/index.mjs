@@ -1,1 +1,3 @@
-var src_default={};export{src_default as default};
+var src_default={};
+
+export { src_default as default };
