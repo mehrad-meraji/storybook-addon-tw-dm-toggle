@@ -1,5 +1,7 @@
-# Storybook Addon Tailwindcss Dark Mode Toggle
-tiny tailwindcss dark mode toggle
+# Storybook Addon: Tailwindcss Dark Mode Toggle
+Tiny tailwindcss dark mode toggle. It will add `data-theme="dark"` as well as `class="dark"` to the `<html />` element.
+
+![Example showing the data-theme and class applied to html tag](./html-tag.png)
 
 ## Installation
 
